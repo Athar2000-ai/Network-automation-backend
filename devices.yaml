@@ -1,0 +1,20 @@
+groups:
+  access_switches:
+    - device_type: cisco_ios
+      ip: 192.168.100.2
+      username: admin
+      password: admin123
+      secret: admin1234
+
+    - device_type: cisco_ios
+      ip: 192.168.100.3
+      username: admin
+      password: admin123
+      secret: admin1234
+
+  core_routers:
+    - device_type: cisco_ios
+      ip: 192.168.100.1
+      username: admin
+      password: admin123
+      secret: admin1234
